@@ -39,3 +39,23 @@
 
 # debug information files
 *.dwo
+
+# --- Python Additions ---
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Python virtual environments (if you use one)
+venv/
+env/
+.venv/
+
+# --- Data File Additions ---
+# Ignore the raw PDFs and Excel files so they don't bloat your GitHub repo
+*.pdf
+*.xlsx
+*.xls
+
+# (Optional) You can choose to ignore the CSV if it updates constantly, 
+# or leave this out if you want to track the current menu on GitHub.
+# menu.csv
